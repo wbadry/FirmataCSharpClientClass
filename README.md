@@ -8,7 +8,7 @@ Tested with:
 Note: to use it with **NodeMCU** or any *ESP8266 based board* , you need to use StandardFirmataESP.ino (*modified to allow communication using serial port with ESP8266*)
 
 **StandardFirmataESP.ino** (for all **ESP8266** boards)
-
+```cpp
     #include <Servo.h>
     #include <Wire.h>
     #include <Firmata.h>
@@ -812,5 +812,5 @@ Note: to use it with **NodeMCU** or any *ESP8266 based board* , you need to use 
       serialFeature.update();
     #endif
     }
-
+```
 Otherwise, use **StandardFirmata.ino** (shipped with Arduino sketch)
